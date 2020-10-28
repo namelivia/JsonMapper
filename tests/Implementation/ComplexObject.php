@@ -10,7 +10,7 @@ class ComplexObject
 {
     /** @var SimpleObject|null */
     private $child;
-    /** @var SimpleObject[] */
+    /** @var SimpleObject[]|null */
     private $children;
     /** @var User */
     private $user;
